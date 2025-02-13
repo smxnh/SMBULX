@@ -267,8 +267,10 @@ Only send emails to recipients with @yahoo.com or @gmail.com email addresses.
 By understanding and utilizing these command-line flags and file formats, you can harness the full power of SMBULX to create targeted, personalized, and efficient email campaigns.
 
 
-• Script Run Example:
+• Script Run real Example:
 
 To send bulk emails with the provided configurations, use the following command:
 
+```bash
 ./SMBULX -s smtp_servers.txt -r recipients.txt -n sender_names.txt -b subjects.txt -m email_messages.txt -c 100 -tm 3 -d 30 -a /path/to/attachment.pdf -ch headers.txt -l l1.txt,l2.txt,l3.txt -re 999 -f gmail
+```
