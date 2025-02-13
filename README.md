@@ -2,6 +2,8 @@
 SMBULX is a powerful Go-based command-line tool for sending bulk emails via multiple SMTP servers. It supports both plain text and HTML formats, dynamic content, robust error handling, and concurrent sending for speed. SMBULX offers extensive customization and control through various command-line options.
 for more https://t.me/smtpSMX
 
+![alt text](https://github.com/smxnh/SMBULX/blob/main/20250213_171938.jpg)
+
 ## ✓ Core Features
 
 *   **SMTP Server Support:** Distribute your sending load across multiple SMTP servers, each with its own unique credentials. This helps prevent any single server from being overloaded and potentially flagged, increasing deliverability.
