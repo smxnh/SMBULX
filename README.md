@@ -232,8 +232,9 @@ Here's a complete example of how to run the SMBULX script with various configura
 
 ```bash
 ./SMBULX -s smtp_servers.txt -r recipients.txt -n sender_names.txt -b subjects.txt -m message.html,message.txt -c 100 -t 3 -tm 30 -a attachment.pdf -ch headers.txt -l links.txt,promocodes.txt -re 3 -f yahoo.com,gmail.com
+```
 
-This command will:
+### This command will:
 
 Read SMTP server details from the smtp_servers.txt file.
 
@@ -271,8 +272,3 @@ By understanding and utilizing these command-line flags and file formats, you ca
 To send bulk emails with the provided configurations, use the following command:
 
 ./SMBULX -s smtp_servers.txt -r recipients.txt -n sender_names.txt -b subjects.txt -m email_messages.txt -c 100 -tm 3 -d 30 -a /path/to/attachment.pdf -ch headers.txt -l l1.txt,l2.txt,l3.txt -re 999 -f gmail
-
-
-• Important: Use SMBULX responsibly.
-
-This tool is intended for legitimate email marketing purposes only.  Sending unsolicited emails (spam) is illegal and unethical. The user is solely responsible for complying with all applicable laws and regulations, including but not limited to anti-spam laws (e.g., CAN-SPAM Act, GDPR). Misuse of this tool can result in legal penalties and damage to your sender reputation. Always obtain explicit consent from recipients before sending them emails, and provide a clear and easy way for them to unsubscribe from your mailing list.
